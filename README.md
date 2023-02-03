@@ -2,7 +2,7 @@
 
 ## The beginning
 
-I've spent months trying Vim and its ecosystems. Initial motivation came from the desire of challenging myself to use a tool I was not comfortable with. Then, I understood there was more in the thing, and I felt like I was connecting the dots. I started to get more information in the Vim space, reading about the principles of the Unix philosphy, and I suddenly re-aligned my principles with the basic principle of computing: spending minimal resources while getting more results. Vim was something I desiderd to spend time with: a focused environment that allowed me to easily get into deep work and relaxed coding.
+I've spent months trying Vim and its ecosystems. Initial motivation came from the desire of challenging myself to use a tool I was not comfortable with. Then, I understood there was more in the thing, and I felt like I was connecting the dots. I started to get more information in the Vim space, reading about the principles of the Unix philosophy, and I suddenly re-aligned my principles with the good old norm that we all forget along the way: spending minimal resources while getting more results. Vim was something I desiderd to spend time with: a focused environment that allowed me to easily get into deep work and relaxed coding, without all the bells and whistles of more specialized IDEs, that I still like today. I'm not in the battle between NeoVim vs VsCode or similar, I'll just enjoy both of them; just use each one the way I prefer.
 
 ## Why I use Vim
 
@@ -13,24 +13,23 @@ Moreover, the vibrant Vim ecospace (official documentation and sources, reddit, 
 
 ## Which Vim?
 
-I've tried quite a number of configurations, plugins and versions of Vim ecospace, and my final to-go choice is NeoVim that I customized to fit my needs.
-Because NeoVim has the configuration starting from a prebuilt init.lua from (this cool repo) 
-[https://github.com/nvim-lua/kickstart.nvim] from TJ DeVries, a core maintainer of NeoVim and creator of important NeoVim plugins like telescope. Along the way I've just added some shortcuts and commands that I needed
+I've tried quite a number of configurations, plugins and versions of Vim ecospace, and my final to-go choice is NeoVim with some customizations to fit my needs. Before settling with NeoVim, I tried SpaceVim, LunarVim and AstroVim. Despite each of them being a valid choice, they have their downsides. The feel to me a little bloated with features I don't necessarily use, and they hide too many things that I'd like to learn my self along the way of mastering NeoVim.
+
 
 ## A brief introduction to NeoVim configuration
 
-Configuration is a core aspect of NeoVim. It's where you can program the software to do exactly what you need.
+Configuration is a core aspect of NeoVim. Is where you program the software to do exactly what you need.
 NeoVim can be configured in two native ways: via VimScript (you'll have a init.vim file) or in Lua (here you'll have a init.lua file).
-My choice is Lua for two reasons: it's more natural to me using a language that I can reuse for other applications than a language that I won't use elsewhere.
-Moreover, Lua is a decent language with a great community, and many great products have been built with it. It's even well suited for creating videogames!
+My choice is Lua for two reasons: it's more natural to me using a language that I can reuse for other applications than a language that I won't use elsewhere. Moreover, Lua is a decent language with a great community, and many great products have been built with it. It's even well suited for creating videogames!
 
 ## What you'll find in this repo
 
-My init.lua file, that is based on the one from TJ DeVries with some modifications that I'll list in the features section
+My init.lua file, that is based on the one from [this cool repo]
+(https://github.com/nvim-lua/kickstart.nvim) from TJ DeVries, a core maintainer of NeoVim and creator of important NeoVim plugins like telescope. Along the way I've just added some shortcuts and commands needed.
 
-## Features
+## Installation and Features
 
-For the basic features please take a look at the repo I've mentioned early, that is the repo from my small modifications are based on:
+For the installation, and for the basic features please take a look at the repo I've mentioned early, that is the repo from my small modifications are based on:
 (nvim-lua/kickstart.nvim)[https://github.com/nvim-lua/kickstart.nvim]
 
 ### Additional configuration by me
